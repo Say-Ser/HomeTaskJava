@@ -34,7 +34,7 @@ public class HomeTask {
     }
     public static void Task3(double Cel){
         double Far=Cel*1.8+32;
-        double Kel=Cel-273.15;
+        double Kel=Cel+273.15;
         System.out.println("Температура по шкале Цельсия: "+Cel);
         System.out.println("Температура по шкале Фаренгейта: "+Far);
         System.out.println("Температура по шкале Кельвина: "+Kel);
