@@ -47,9 +47,8 @@ public class HomeTask {
     public static int Task10(int N){
         int count=0;
         if(N<2){System.out.println("Четных чисел нет!");return 0;}
-        for(int i=2;i<=N;i++){
-            if(i%2==0)
-                count++;
+        for(int i=2;i<=N;i+=2){
+            count++;
         }
         return count;
     }
