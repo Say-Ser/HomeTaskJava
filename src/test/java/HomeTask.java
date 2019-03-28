@@ -39,4 +39,18 @@ public class HomeTask {
         System.out.println("Температура по шкале Фаренгейта: "+Far);
         System.out.println("Температура по шкале Кельвина: "+Kel);
     }
+    public static void Task6(int m, int n){
+        if(m%n==0)
+            System.out.println(m/n);
+        else System.out.println("Число "+m+" не делится нацело на число "+n+" !");
+    }
+    public static int Task10(int N){
+        int count=0;
+        if(N<2){System.out.println("Четных чисел нет!");return 0;}
+        for(int i=2;i<=N;i++){
+            if(i%2==0)
+                count++;
+        }
+        return count;
+    }
 }
