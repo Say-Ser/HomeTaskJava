@@ -41,21 +41,26 @@ public class HomeTask {
         System.out.println("Температура по шкале Кельвина: "+Kel);
     }
     public static int Task4(int x){//564
+
         return x/10+x%10*100;
     }
+
+
     public static void Task6(int m, int n){
         if(m%n==0)
             System.out.println(m/n);
         else System.out.println("Число "+m+" не делится нацело на число "+n+" !");
     }
     public static void Task7(int x){
-
+        //a)
         if(x/100>x%10)
             System.out.println(x/100);
         else  System.out.println(x%10);
+        //б)
         if(x/100>x%100/10)
             System.out.println(x/100);
         else  System.out.println(x%100/10);
+        //в))
         if(x%100/10>x%10)
             System.out.println (x%100/10);
         else  System.out.println (x%10);
@@ -93,12 +98,7 @@ public class HomeTask {
         System.out.println(x);
     }
     public static int Task12(String fk){
-        int count=0;
-        while (fk!='/0'){
-            fk=fk/10;
-            count++;
-        }
-        return count;
+        return fk.length();k
     }
 
     }
