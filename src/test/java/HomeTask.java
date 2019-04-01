@@ -107,13 +107,13 @@ public class HomeTask {
     public static int Task12(String fk){
         return fk.length();
     }
-    public  static  void Task13(String a){
+    public static void Task13(String a){
         String x=a.substring(2,7);
         System.out.println(x);
         String y=a.substring(7,10);
         System.out.println(y);
     }
-    public  static void Task15(String X){
+    public static void Task15(String X){
         char[] Y= X.toCharArray();
         //а)
         for(int i = 0; i<Y.length; i++){
