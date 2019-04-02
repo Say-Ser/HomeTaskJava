@@ -1,19 +1,20 @@
 public class HomeTask {
     public static void main(String[] args) {
-    Task0(5,2);
+    /*Task0(5,2);
     System.out.println(Task1(2,4,6));
     Task2(10,12);
     Task3(25);
     System.out.println(Task4(564));
     Task6(20,5);
-    Task7(654);*/
+    Task7(654);
     Task8(967,6);
-    Task9(7);
-    System.out.println(Task10(25));
-    Task11(200,17);
+    Task9(7);*/
+    int []N={25,2,6,4,7,8};
+    System.out.println(Task10(N));
+   /* Task11(200,17);
     System.out.println(Task12("Динамо"));
     Task13("информатика");
-    Task15("Дети очень любят ели.");
+    Task15("Дети очень любят ели.");*/
 
     }
     public static void Task0(int x, int y) {
@@ -91,11 +92,11 @@ public class HomeTask {
         String []w = {"Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье" };
         System.out.println(w[x-1]);
     }
-    public static int Task10(int N){
+    public static int Task10(int []N){
         int count=0;
-        if(N<2){System.out.println("Четных чисел нет!");return 0;}
-        for(int i=2;i<=N;i+=2){
-            count++;
+          for(int i=0;i<N.length;i++){
+              if(N[i]%2==0)
+              count++;
         }
         return count;
     }
