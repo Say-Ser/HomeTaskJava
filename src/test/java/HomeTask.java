@@ -1,20 +1,22 @@
+
 public class HomeTask {
     public static void main(String[] args) {
-    /*Task0(5,2);
+    Task0(5,2);
     System.out.println(Task1(2,4,6));
-    Task2(10,12);
+    Task2(10,15);
     Task3(25);
     System.out.println(Task4(564));
     Task6(20,5);
     Task7(654);
     Task8(967,6);
-    Task9(7);*/
+    Task9(7);
     int []N={25,2,6,4,7,8};
     System.out.println(Task10(N));
-   /* Task11(200,17);
+    Task11(200,17);
     System.out.println(Task12("Динамо"));
     Task13("информатика");
-    Task15("Дети очень любят ели.");*/
+    Task15("Дети очень любят ели.");
+
 
     }
     public static void Task0(int x, int y) {
